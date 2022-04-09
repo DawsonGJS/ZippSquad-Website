@@ -1,0 +1,142 @@
+/* Style the body */
+body {
+  
+  background-color: black;;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 6px;
+  text-align: center;
+  background-color: green;
+  color: black;
+  font-size: 30px;
+background: 
+  /* On "top" */
+  repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    green 10px,
+    green 20px
+  ),
+  /* on "bottom" */
+  linear-gradient(
+    to bottom,
+    yellow,
+    green
+  );
+}
+ #logo {
+ 
+ height: 25%;
+ width: 15%;
+ position: relative;
+ right: 1000px;
+ }
+
+#ralphPic {
+	
+	max-height:100%;
+	position: relative;
+	left: 1000px;
+	
+}
+
+#aboutPic {
+	
+	max-height:100%;
+	position: relative;
+	left: 1000px;
+	
+}
+
+h1 {
+	
+	color:yellow;
+	text-align: center;
+	font-size: 72;
+	letter-spacing: 3px;
+}
+
+#artlink {
+	height: 200px;
+	width:2250px;
+	position: relative;
+	top: 100px;
+	background-color: rgb(123,219,129);
+	
+}
+
+#designLink {
+	
+	height: 200px;
+	width:2250px;
+	position: relative;
+	background-color: darkred;
+	
+	
+}
+
+#aboutLink {
+	
+	height: 200px;
+	width:2250px;
+	position: relative;
+	background-color: green;
+	
+	
+}
+.topnav {
+  overflow: hidden;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  position: relative;
+  left: 850px;
+  top: 225px;
+  
+}
+
+.topnav a:hover {
+  
+  color: yellow;
+}
+
+.topnav a.active {
+  
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

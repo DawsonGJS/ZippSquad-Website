@@ -1,0 +1,59 @@
+<html>
+
+	<title>Dawson Gates ZippSquad Homepage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="HomePage_CSS.css">
+ 
+ </head>
+	
+	<body>
+	<div class="header">
+	
+  
+  <div class="topnav" id="myTopnav">
+  <span> <img id="logo" src ="logo.png"> </span>
+  <a href="#home" class="active">Home</a>
+  <a href="#artwork">Artwork</a>
+  <a href="#design">Graphic Design</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</div>
+
+<div class = "imgLink" id ="artLink">
+<img id= "ralphPic" src = "ralph.png">
+</div><br><br><br><br>
+
+<h1>Artwork</h1>
+
+<div class = "imgLink" id ="designLink">
+<img id= "ralphPic" src = "commission.png">
+</div>
+
+<h1>Graphic Design</h1>
+
+<div class = "imgLink" id ="aboutLink">
+<img id = "aboutPic" src = "logo.png">
+</div>
+<h1>About Me</h1>
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+	
+	</body>
+	
+	</html>
